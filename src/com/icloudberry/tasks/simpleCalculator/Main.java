@@ -10,6 +10,7 @@ public class Main {
         System.out.println(new Main().interpret(1, new String[]{"+", "*"}, new int[]{1, 3}));
     }
 
+    // added something to create a PR
     public int interpret(int value, String[] commands, int[] args) {
         if (commands.length != args.length) return -1;
         int res = value;
